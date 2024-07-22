@@ -1,0 +1,72 @@
+name: gossip_girls
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.4+4
+  ionicons: ^0.1.2
+  youtube_player_flutter: ^8.0.0
+  webview_flutter: ^2.0.10
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/kiss_animate.png
+    - assets/images/kiss_sketch.png
+    - assets/images/Lipblack.png
+    - assets/images/Mypost.jpg
+    - assets/images/myprofile.jpg
+    - assets/images/profile1.jpg
+    - assets/images/profile2.jpg
+    - assets/images/profile3.jpg
+    - assets/images/profile4.jpg
+    - assets/images/profile5.jpg
+    - assets/images/profile6.jpg
+    - assets/images/profile7.jpg
+    - assets/images/profile8.jpg
+    - assets/images/profile9.jpg
+    - assets/images/profile10.jpg
+    - assets/images/post1.jpg
+    - assets/images/music1.jpeg
+    - assets/images/music2.jpeg
+    - assets/images/music3.jpeg
+    - assets/images/music4.jpeg
+    - assets/images/music5.jpeg
+    - assets/images/music6.jpg
+    - assets/images/music7.jpg
+    - assets/images/music8.jpg
+    - assets/images/music9.jpg
+    - assets/images/music10.jpg
+    - assets/images/bg.jpg
+
+  fonts:
+    - family: CustomFont
+      fonts:
+        - asset: assets/fonts/Raleway-Italic-VariableFont_wght.ttf
+          style: italic
+        - asset: assets/fonts/Raleway-VariableFont_wght.ttf
+    - family: Lora
+      fonts:
+        - asset : assets/fonts/Lora-Regular.ttf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-ExtraLight.ttf
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 100
+
+    
+
